@@ -9,6 +9,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "-@workspace:."
   dependencies:
+    "@heroicons/vue": "npm:^2.1.5"
     "@rushstack/eslint-patch": "npm:^1.8.0"
     "@tsconfig/node20": "npm:^20.1.4"
     "@types/node": "npm:^20.14.5"
@@ -605,6 +606,15 @@ __metadata:
   version: 8.57.1
   resolution: "@eslint/js@npm:8.57.1"
   checksum: 10c0/b489c474a3b5b54381c62e82b3f7f65f4b8a5eaaed126546520bf2fede5532a8ed53212919fed1e9048dcf7f37167c8561d58d0ba4492a4244004e7793805223
+  languageName: node
+  linkType: hard
+
+"@heroicons/vue@npm:^2.1.5":
+  version: 2.1.5
+  resolution: "@heroicons/vue@npm:2.1.5"
+  peerDependencies:
+    vue: ">= 3"
+  checksum: 10c0/64037ec72c2b43f69cd4ce6ac15e6a6f7ffc9d3bdf41eb2f40bfd4cde17882e19f8a89259a05c067ad33be3d7c59581d51f8b8c0c8e2053ab5e557223211952c
   languageName: node
   linkType: hard
 
